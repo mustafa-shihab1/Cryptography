@@ -1,4 +1,4 @@
-# Crypto1 Project
+# Crypto Project
 
 
 ## First: Vernam-Cipher
@@ -55,3 +55,15 @@ When dealing with 2×2 matrices, Hill Cipher is easily solvable. But when it com
 Unfortunately, a higher level of matrix multiplications doesn’t do anything to add more security to the system. It can, however, complement diffusion on mixing with non-linear operations. Modern advanced encryption methods like AES use different diffusion to add further security to their system.
 
 Simple 2×2 Hill Cipher matrices are quite simple and decipherable, but as it expands in size, the calculations become a lot more complex, which requires an in-depth understanding of higher mathematics.
+
+
+## Third: Simple Secure Chat
+### Abstract
+This chat application uses RSA and ECC encryption algorithms. It establishes a network connection between two participants and allows them to exchange encrypted messages securely "locally :)".
+It includes a simple graphical user interface (GUI) created using tkinter for user interaction.
+The messages exchanged between the participants are stored in a SQLite database for later retrieval.
+
+
+
+
+
